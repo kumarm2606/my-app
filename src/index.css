@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.eventstyle{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.react-datepicker-wrapper{
+  width: 0%;
+}
+.errormassagedescription{
+  position: absolute;
+    top: 108px;
+    left: 252px;
+}
+.errormassage{
+  position: absolute;
+    top: 61px;
+    left: 252px;
+}
+.TableHeader{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.danger{
+  color: red
+}
+.eventdescription{
+  overflow: hidden;
+  width: 513px;
+  display:-webkit-box ;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
